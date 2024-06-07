@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wize-blog</title>
+
+    <link rel="icon" href="images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+</head>
+
+<body>
+
+    <!-- navv bar section  -->
+
+    <div class="navbarmain">
+        <div class="nav-bar-mid">
+            <div class="nav-left">
+                <img src="images/logos/logo.png">
+            </div>
+            <div class="nav-mid">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+
+            </div>
+            <div class="nav-right">
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github  github"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about  -->
+
+    <div class="about-main blogg">
+        <div class="about-mid">
+            <h1>Blog</h1>
+            <br><br>
+            <p>I write about design, productivity, tech and my creative process. Subscribe <br>to my newsletter to stay
+                in touch. I sync once a month with no spam and <br>ads.</p>
+
+
+        </div>
+    </div>
+
+    <div class="blog-box-main">
+        <div class="blog-box-one">
+            <div class="blog-left">
+                <button class="img-btn blog-img-btn">HELP</button>
+                <div class="blog-shadow">
+
+
+
+                </div>
+                <img src="images/blog/blog1.jpg">
+            </div>
+            <div class="blog-right">
+                <p>POSTED ON AUG 28</p>
+                <h2><a href="#">Create a Landing Page <br>
+                    That Performs Great</a></h2>
+                <button class="read-more">Read More <i class="fa fa-long-arrow-right"></i></button>
+            </div>
+        </div>
+
+
+
+        <div class="blog-box-one">
+            <div class="blog-left">
+                <button class="img-btn blog-img-btn">HELP</button>
+                <div class="blog-shadow">
+
+
+
+                </div>
+                <img src="images/blog/blog2.jpg">
+            </div>
+            <div class="blog-right">
+                <p>POSTED ON AUG 28</p>
+                <h2><a href="#">Create a Landing Page <br>
+                    That Performs Great</a></h2>
+                <button class="read-more">Read More <i class="fa fa-long-arrow-right"></i></button>
+            </div>
+        </div>
+
+
+
+
+        <div class="blog-box-one">
+            <div class="blog-left">
+                <button class="img-btn blog-img-btn">HELP</button>
+                <div class="blog-shadow">
+
+
+
+                </div>
+                <img src="images/blog/blog3.jpg">
+            </div>
+            <div class="blog-right">
+                <p>POSTED ON AUG 28</p>
+                <h2><a href="#">Create a Landing Page <br>
+                    That Performs Great</a></h2>
+                <button class="read-more">Read More <i class="fa fa-long-arrow-right"></i></button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- foorer section  -->
+
+<div class="footer-main">
+    <div class="footer-mid">
+        <h1>Are You Ready to kickstart your project?</h1>
+
+        <p>Reach out and let's make it happen ✨. I'm also available for full-time or Part-time opportunities to push the boundaries of design and deliver exceptional work.</p>
+
+        <button class="footer-btn"> Let's Talk <i class="fa fa-download"></i></button>
+
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="footer-bottom-mid">
+        <p>©Copyright <a href="#">Wize</a>  All Rights Reserved.</p>
+
+    </div>
+</div>
+
+<!-- scroll top btn  -->
+
+<button class="scroll-top" onclick="topFunction()" id="myBtn"> <i class="fa fa-arrow-up"></i></button>
+    
+
+<script>
+   
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.opacity= "1" ;
+  } else {
+    mybutton.style.opacity = "0";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
